@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>Frameset Example</title>
+<style>
+    #header{
+        background-image: url(back.jpg);
+    }
+    .class{
+        background-image: url(background.jpeg);
+    }
+</style>
+</head>
+<frameset rows="20%, 80%">
+    <frame src="header.html" name="header" id="header" />
+    
+    <frameset cols="30%, 70%">
+        <frame src="images.html" name="menu" />
+        <frame src="trees.html" name="content" class="trees"/>
+    </frameset>
+    
+</frameset>
+</html>
